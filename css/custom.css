@@ -1,0 +1,217 @@
+.main-banner-area {
+    padding-top: 90px;
+    padding-bottom: 130px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-image: url(/images/background.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+.main-banner-animation-image{
+    position: relative;
+  width: 100%;
+  height: 100%;
+}
+    .main-banner-area .without-banner-animation {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+    .main-banner-text h1 {
+    color: #4c4c4d;
+}
+.feature-2 {
+    background-color: #f7f9fb;
+}
+.bottom-bar {
+    height: 3px;
+    background-color: #4c4c4d;
+    max-width: 55px;
+    margin-left: 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 30px !important;
+}
+.feature-bar {
+    height: 3px;
+    background-color: #77b9dd;
+    max-width: 62px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 30px !important;
+}
+.bandcolor {
+    color: #f57e23 !important;
+}
+.main-banner-content .tag {
+    display: inline-block;
+    background-color: #f57e23;
+    padding: 10px 25px 10px 25px;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    color: #ffffff;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.about-us {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-us h3 {
+    color: #056aae;
+}
+.about-us h3::before {
+    content: '';
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    bottom: -1px;
+    background-color: #6e808a !important;
+}
+.social-list-align {
+    text-align: right !important;
+    color: #ffffff !important;
+}
+.address-location {
+    font-weight: bold;
+}
+.newsletter {
+    background-color: #0569ad;
+}
+.newsletter .newsletter-title, h3 {
+    margin-top: 30px;
+    position: relative;
+    color: #ffffff 
+}
+.newsletter-form {
+    margin-top: 30px;
+    position: relative;
+}
+.newsletter .newsletter-form .input-newsletter {
+    display: block;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #0064FB;
+    height: 60px;
+    padding: 15px;
+    border-radius: 5px;
+    outline: 0;
+    color: #2E2F46;
+}
+.newsletter .newsletter-form .input-newsletter .newsletter-form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    width: 70px;
+    line-height: 65px;
+    background-color: #0064FB;
+    border: none;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0;
+    font-size: 25px;
+}
+.join-us {
+    background-color: #f7f9fb;
+}
+.join-us .title-section {
+    text-align: center;
+    max-width: 1050px;
+    margin: auto;
+}
+.join-us .title-section h1{
+    color:#0569ad;
+}
+
+.join-us .single-features-box {
+    text-align: center;
+    margin-bottom: 30px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    padding: 35px 22px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.single-features-box::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    background: #0569ad;
+   /* background: -webkit-gradient(linear, left top, right top, from(#0569ad), to(#f68632));
+    background: linear-gradient(90deg, #f68632 0%, #0569ad 100%);
+    */
+    z-index: -1;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+.single-features-box img {
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    margin: 50px;
+}
+.single-features-box h3 {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    color:#0569ad !important
+}
+.single-features-box p, a {
+    color: #0569ad !important;
+}
+.single-features-box a {
+    color: #0569ad !important;
+}
+.single-features-box p {
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+}
+.single-features-box:hover::before {
+    height: 100%;
+}
+.single-features-box:hover img {
+    -webkit-animation: bounceIn 1s;
+    animation: bounceIn 1s;
+}
+.single-features-box:hover h3 {
+    color: #ffffff !important;
+}
+.single-features-box:hover p a {
+    color: #ffffff !important;
+}
+
+.portfolio{
+background-color: #f7f9fb;
+}
+    .portfolio .client-item .portfolio-details{
+        padding: 20px;
+    background-color: #f2f2f3;
+    }
+    .portfolio .client-item .portfolio-details img{
+        height: 80px;
+        padding: 15px 1px;
+        /* float: right;  */
+        
+        }
+        .portfolio .client-item .portfolio-details h4{
+            height: 80px;
+            padding: 15px 1px;
+            
+            }
+
