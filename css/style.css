@@ -601,7 +601,8 @@ section.anim-object {
   font-size: 16px;
 }
 .social-list li a:hover {
-  background: linear-gradient(45deg, #0E90D5, #0569ad) !important;
+  background-color: #0569ad !important;
+  color:#ffffff !important;
 }
 .social-list.list-primary-color li a {
   background: #0569ad;
@@ -980,7 +981,7 @@ section.anim-object {
   text-align: center;
   top: 50%;
   width: 50px;
-  background: linear-gradient(45deg, #0E90D5, #3032A2) !important;
+  background-color: #0569ad !important;
   -moz-transform: translate(0, -50%);
   -o-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
